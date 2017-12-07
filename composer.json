@@ -1,0 +1,11 @@
+{
+    "name": "uedatakeyuki/ndlsearch",
+    "description": "Japan National Diet Library bibliographic search.",
+    "authors": [
+        {
+            "name": "Takeyuki UEDA",
+            "email": "ueda@latelierdueda.com"
+        }
+    ],
+    "require": {}
+}
