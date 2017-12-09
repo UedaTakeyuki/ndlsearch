@@ -3,8 +3,13 @@ Japan National Diet Library bibliographic search
 
 # how to use
 ```php:
-$isbn_str = '9784526077425'; # 10 or 13 column digit of ISBN code,
+# 10 or 13 column digit of ISBN code
+$isbn_str = '9784526077425'; 
+
+# create class with ISBN code
 $ndl = new NDLsearch($isbn_str);
+
+# get bibliographic info
 print "title: ".$ndl->title();
 print "author: ".$ndl->creator();
 print "subject: ".$ndl->subject();
