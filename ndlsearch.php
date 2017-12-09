@@ -12,6 +12,8 @@
  * @copyright Copyright© Atelier UEDA 2017 - All rights reserved.
  *
  */
+namespace App\Classes;
+
 class NDLsearch{
   private $dcNode = '';
   public function __construct($isbn){
