@@ -37,7 +37,7 @@ print "language: ".$ndl->language();
 
 2. ```composer install```
 3. ```composer dump-autoload```
-4. add ``use App\Classes\NDLsearch;``` as follows:
+4. add ```use App\Classes\NDLsearch;``` as follows:
 ```php: BibliographyController.php
 
 <?php
@@ -57,5 +57,5 @@ class BibliographyController extends Controller
     ...
     $ndl = new NDLsearch($barcode);
     session(['title' => (string)$ndl->title()]);
-    ...
-    ```
+    ...    
+```
